@@ -35,10 +35,13 @@ def getAcademics(academics):
 response   = browserObject.open("http://slcm.manipal.edu/Academics.aspx")
 academics  = BeautifulSoup(response.read(), "html5lib")
 
+sys.stdout = open('Academics.txt', 'w')
+print 'Academics: \n', academics
+
 getAcademics(academics)
 
 response   = browserObject.open("http://slcm.manipal.edu/GradeSheet.aspx")
 gradeSheet = BeautifulSoup(response.read(), "html5lib")
 
-# sys.stdout = open('GradeSheet.txt', 'w')
-# print 'Grade Sheet: \n', gradeSheet
+sys.stdout = open('GradeSheet.txt', 'w')
+print 'Grade Sheet: \n', gradeSheet
