@@ -1,0 +1,706 @@
+<div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-text panel-title">
+                                                                    <a aria-expanded="true" data-parent="#accordion" data-toggle="collapse" href="#ICT3151" role="button">
+                                                                        <i aria-hidden="true" class="more-less fa fa-plus tooltips" data-original-title="Expand" data-placement="top"></i>
+                                                                        <b>Subject Code:</b> ICT 3151  FUNDAMENTALS OF ALGORITHM ANALYSIS AND DESIGN
+                                                                         <label class="pull-right mr-15 righ-marks text-normal" id="ContentPlaceHolder1_rtprAssessmentHeader_pnlRightView_0">
+                                                                            <span class="p-0 m-0 mr-10" id="ContentPlaceHolder1_rtprAssessmentHeader_lblTotal_0" style="display: inline-block">Marks Obtained: <b>32.00</b></span>
+                                                                            <span class="p-0 m-0" id="ContentPlaceHolder1_rtprAssessmentHeader_Label1_0" style="display: inline-block">Max Marks: <b>50.00</b></span>
+                                                                        </label>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="panel-collapse collapse" id="ICT3151" role="tabpanel">
+                                                                <div class="panel-body mit-bg">
+                                                                    <div class="table-responsive">
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlInternal_0">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Internal</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 1</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">12.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 2</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">30.00</td>
+                                                                                            <td class="text-center">18.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlAssignment_0">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Assignment</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Assignment 1</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">3.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 2</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">3.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 3</td>
+                                                                                            <td class="text-center">8.00</td>
+                                                                                            <td class="text-center">7.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">20.00</td>
+                                                                                            <td class="text-center">13.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+-------------------------------------------
+
+<div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-text panel-title">
+                                                                    <a aria-expanded="true" data-parent="#accordion" data-toggle="collapse" href="#ICT3152" role="button">
+                                                                        <i aria-hidden="true" class="more-less fa fa-plus tooltips" data-original-title="Expand" data-placement="top"></i>
+                                                                        <b>Subject Code:</b> ICT 3152  HIGH SPEED COMMUNICATION NETWORKS AND PROGRAMMING
+                                                                         <label class="pull-right mr-15 righ-marks text-normal" id="ContentPlaceHolder1_rtprAssessmentHeader_pnlRightView_1">
+                                                                            <span class="p-0 m-0 mr-10" id="ContentPlaceHolder1_rtprAssessmentHeader_lblTotal_1" style="display: inline-block">Marks Obtained: <b>26.00</b></span>
+                                                                            <span class="p-0 m-0" id="ContentPlaceHolder1_rtprAssessmentHeader_Label1_1" style="display: inline-block">Max Marks: <b>50.00</b></span>
+                                                                        </label>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="panel-collapse collapse" id="ICT3152" role="tabpanel">
+                                                                <div class="panel-body mit-bg">
+                                                                    <div class="table-responsive">
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlInternal_1">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Internal</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 1</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">3.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 2</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">5.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">30.00</td>
+                                                                                            <td class="text-center">8.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlAssignment_1">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Assignment</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Assignment 1</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">5.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 2</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">5.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 3</td>
+                                                                                            <td class="text-center">8.00</td>
+                                                                                            <td class="text-center">7.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">20.00</td>
+                                                                                            <td class="text-center">17.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+-------------------------------------------
+
+<div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-text panel-title">
+                                                                    <a aria-expanded="true" data-parent="#accordion" data-toggle="collapse" href="#ICT3153" role="button">
+                                                                        <i aria-hidden="true" class="more-less fa fa-plus tooltips" data-original-title="Expand" data-placement="top"></i>
+                                                                        <b>Subject Code:</b> ICT 3153  PARALLEL PROGRAMMING
+                                                                         <label class="pull-right mr-15 righ-marks text-normal" id="ContentPlaceHolder1_rtprAssessmentHeader_pnlRightView_2">
+                                                                            <span class="p-0 m-0 mr-10" id="ContentPlaceHolder1_rtprAssessmentHeader_lblTotal_2" style="display: inline-block">Marks Obtained: <b>37.00</b></span>
+                                                                            <span class="p-0 m-0" id="ContentPlaceHolder1_rtprAssessmentHeader_Label1_2" style="display: inline-block">Max Marks: <b>50.00</b></span>
+                                                                        </label>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="panel-collapse collapse" id="ICT3153" role="tabpanel">
+                                                                <div class="panel-body mit-bg">
+                                                                    <div class="table-responsive">
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlInternal_2">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Internal</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 1</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 2</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">8.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">30.00</td>
+                                                                                            <td class="text-center">18.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlAssignment_2">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Assignment</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Assignment 1</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 2</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">5.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 3</td>
+                                                                                            <td class="text-center">8.00</td>
+                                                                                            <td class="text-center">7.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">20.00</td>
+                                                                                            <td class="text-center">18.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+-------------------------------------------
+
+<div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-text panel-title">
+                                                                    <a aria-expanded="true" data-parent="#accordion" data-toggle="collapse" href="#ICT3154" role="button">
+                                                                        <i aria-hidden="true" class="more-less fa fa-plus tooltips" data-original-title="Expand" data-placement="top"></i>
+                                                                        <b>Subject Code:</b> ICT 3154  DATABASE SYSTEMS
+                                                                         <label class="pull-right mr-15 righ-marks text-normal" id="ContentPlaceHolder1_rtprAssessmentHeader_pnlRightView_3">
+                                                                            <span class="p-0 m-0 mr-10" id="ContentPlaceHolder1_rtprAssessmentHeader_lblTotal_3" style="display: inline-block">Marks Obtained: <b>33.00</b></span>
+                                                                            <span class="p-0 m-0" id="ContentPlaceHolder1_rtprAssessmentHeader_Label1_3" style="display: inline-block">Max Marks: <b>50.00</b></span>
+                                                                        </label>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="panel-collapse collapse" id="ICT3154" role="tabpanel">
+                                                                <div class="panel-body mit-bg">
+                                                                    <div class="table-responsive">
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlInternal_3">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Internal</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 1</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">8.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 2</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">8.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">30.00</td>
+                                                                                            <td class="text-center">16.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlAssignment_3">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Assignment</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Assignment 1</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">5.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 2</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">4.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 3</td>
+                                                                                            <td class="text-center">8.00</td>
+                                                                                            <td class="text-center">7.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">20.00</td>
+                                                                                            <td class="text-center">16.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+-------------------------------------------
+
+<div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-text panel-title">
+                                                                    <a aria-expanded="true" data-parent="#accordion" data-toggle="collapse" href="#ICT3155" role="button">
+                                                                        <i aria-hidden="true" class="more-less fa fa-plus tooltips" data-original-title="Expand" data-placement="top"></i>
+                                                                        <b>Subject Code:</b> ICT 3155  SOFTWARE DESIGN TECHNOLOGY
+                                                                         <label class="pull-right mr-15 righ-marks text-normal" id="ContentPlaceHolder1_rtprAssessmentHeader_pnlRightView_4">
+                                                                            <span class="p-0 m-0 mr-10" id="ContentPlaceHolder1_rtprAssessmentHeader_lblTotal_4" style="display: inline-block">Marks Obtained: <b>38.00</b></span>
+                                                                            <span class="p-0 m-0" id="ContentPlaceHolder1_rtprAssessmentHeader_Label1_4" style="display: inline-block">Max Marks: <b>50.00</b></span>
+                                                                        </label>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="panel-collapse collapse" id="ICT3155" role="tabpanel">
+                                                                <div class="panel-body mit-bg">
+                                                                    <div class="table-responsive">
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlInternal_4">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Internal</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 1</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">11.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 2</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">10.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">30.00</td>
+                                                                                            <td class="text-center">22.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlAssignment_4">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Assignment</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Assignment 1</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">5.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 2</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 3</td>
+                                                                                            <td class="text-center">8.00</td>
+                                                                                            <td class="text-center">5.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">20.00</td>
+                                                                                            <td class="text-center">16.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+-------------------------------------------
+
+<div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-text panel-title">
+                                                                    <a aria-expanded="true" data-parent="#accordion" data-toggle="collapse" href="#ICT3161" role="button">
+                                                                        <i aria-hidden="true" class="more-less fa fa-plus tooltips" data-original-title="Expand" data-placement="top"></i>
+                                                                        <b>Subject Code:</b> ICT 3161  RATIONAL UNIFIED PROCESS LAB
+                                                                         <label class="pull-right mr-15 righ-marks text-normal" id="ContentPlaceHolder1_rtprAssessmentHeader_pnlRightView_5">
+                                                                            <span class="p-0 m-0 mr-10" id="ContentPlaceHolder1_rtprAssessmentHeader_lblTotal_5" style="display: inline-block">Marks Obtained: <b>51.00</b></span>
+                                                                            <span class="p-0 m-0" id="ContentPlaceHolder1_rtprAssessmentHeader_Label1_5" style="display: inline-block">Max Marks: <b>60.00</b></span>
+                                                                        </label>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="panel-collapse collapse" id="ICT3161" role="tabpanel">
+                                                                <div class="panel-body mit-bg">
+                                                                    <div class="table-responsive">
+                                                                        
+
+                                                                        
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlAssignmentLab_5">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Lab</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>LAB1</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">9.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB10</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">9.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB11</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">8.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB12</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">8.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB13</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">8.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB14</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">7.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">60.00</td>
+                                                                                            <td class="text-center">50.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+-------------------------------------------
+
+<div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-text panel-title">
+                                                                    <a aria-expanded="true" data-parent="#accordion" data-toggle="collapse" href="#ICT3162" role="button">
+                                                                        <i aria-hidden="true" class="more-less fa fa-plus tooltips" data-original-title="Expand" data-placement="top"></i>
+                                                                        <b>Subject Code:</b> ICT 3162  DATABASE SYSTEMS LAB
+                                                                         <label class="pull-right mr-15 righ-marks text-normal" id="ContentPlaceHolder1_rtprAssessmentHeader_pnlRightView_6">
+                                                                            <span class="p-0 m-0 mr-10" id="ContentPlaceHolder1_rtprAssessmentHeader_lblTotal_6" style="display: inline-block">Marks Obtained: <b>45.00</b></span>
+                                                                            <span class="p-0 m-0" id="ContentPlaceHolder1_rtprAssessmentHeader_Label1_6" style="display: inline-block">Max Marks: <b>60.00</b></span>
+                                                                        </label>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="panel-collapse collapse" id="ICT3162" role="tabpanel">
+                                                                <div class="panel-body mit-bg">
+                                                                    <div class="table-responsive">
+                                                                        
+
+                                                                        
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlAssignmentLab_6">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Lab</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>LAB1</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">7.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB10</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">8.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB11</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB12</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">9.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB13</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">6.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>LAB14</td>
+                                                                                            <td class="text-center">10.00</td>
+                                                                                            <td class="text-center">7.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">60.00</td>
+                                                                                            <td class="text-center">44.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+-------------------------------------------
+
+<div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-text panel-title">
+                                                                    <a aria-expanded="true" data-parent="#accordion" data-toggle="collapse" href="#ICT4006" role="button">
+                                                                        <i aria-hidden="true" class="more-less fa fa-plus tooltips" data-original-title="Expand" data-placement="top"></i>
+                                                                        <b>Subject Code:</b> ICT 4006  INFORMATION RETRIEVAL
+                                                                         <label class="pull-right mr-15 righ-marks text-normal" id="ContentPlaceHolder1_rtprAssessmentHeader_pnlRightView_7">
+                                                                            <span class="p-0 m-0 mr-10" id="ContentPlaceHolder1_rtprAssessmentHeader_lblTotal_7" style="display: inline-block">Marks Obtained: <b>28.00</b></span>
+                                                                            <span class="p-0 m-0" id="ContentPlaceHolder1_rtprAssessmentHeader_Label1_7" style="display: inline-block">Max Marks: <b>50.00</b></span>
+                                                                        </label>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="panel-collapse collapse" id="ICT4006" role="tabpanel">
+                                                                <div class="panel-body mit-bg">
+                                                                    <div class="table-responsive">
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlInternal_7">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Internal</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 1</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">5.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Internal Sessional 2</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                            <td class="text-center">7.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">30.00</td>
+                                                                                            <td class="text-center">12.50</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+
+                                                                        <div id="ContentPlaceHolder1_rtprAssessmentHeader_pnlAssignment_7">
+		
+                                                                            <table class="table table-bordered">
+                                                                                <tbody><tr>
+                                                                                    <th class="width33">Assignment</th>
+                                                                                    <th class="width33 text-center">Maximum Marks</th>
+                                                                                    <th class="width33 text-center">Marks Obtained</th>
+                                                                                </tr>
+                                                                                
+                                                                                        <tr>
+                                                                                            <td>Assignment 1</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 2</td>
+                                                                                            <td class="text-center">6.00</td>
+                                                                                            <td class="text-center">2.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Assignment 3</td>
+                                                                                            <td class="text-center">8.00</td>
+                                                                                            <td class="text-center">7.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                                        <tr>
+                                                                                            <td>Total Marks</td>
+                                                                                            <td class="text-center">20.00</td>
+                                                                                            <td class="text-center">15.00</td>
+                                                                                        </tr>
+                                                                                    
+                                                                            </tbody></table>
+                                                                        
+	</div>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+-------------------------------------------
+

@@ -16,14 +16,26 @@ browserObject.method              = "POST"
 
 response   = browserObject.submit()
 
-response   = browserObject.open("http://slcm.manipal.edu/GradeSheet.aspx")
-gradeSheet = BeautifulSoup(response.read(), "html5lib")
+def getAcademics(academics):
+	sys.stdout = open('InteralMarks.txt', 'w')
+	panelGroup = academics.find('div', attrs={'class': 'panel-group internalMarks'})
+	panelsList = panelGroup.findAll('div', attrs={'class': 'panel panel-default'})
+	for each in panelsList:
+		print each
+		print '-------------------------------------------'
+		print ''
 
-sys.stdout = open('GradeSheet.txt', 'w')
-print 'Grade Sheet: \n', gradeSheet
 
 response   = browserObject.open("http://slcm.manipal.edu/Academics.aspx")
 academics  = BeautifulSoup(response.read(), "html5lib")
 
-sys.stdout = open('Academics.txt', 'w')
-print 'Academics: \n', academics
+# sys.stdout = open('Academics.txt', 'w')
+# print 'Academics: \n', academics
+
+getAcademics(academics)
+
+response   = browserObject.open("http://slcm.manipal.edu/GradeSheet.aspx")
+gradeSheet = BeautifulSoup(response.read(), "html5lib")
+
+# sys.stdout = open('GradeSheet.txt', 'w')
+# print 'Grade Sheet: \n', gradeSheet
