@@ -24,8 +24,11 @@ def getAcademics(academics):
 	for each in panelsList:
 		a = each.find('a', attrs={'data-parent': '#accordion'})
 		panelData = a.text.strip(string.whitespace)
-		data = ' '.join(panelData.split())
-		print data
+		subjectData = panelData.split('\n')
+		print 'Subject Code:', subjectData[0].split('  ')[0][14:]
+		print 'Subject Name:', subjectData[0].split('  ')[1]
+		print 'Marks Obtained:', subjectData[2].strip()[-6:].strip()
+		print 'Maximum Marks:', subjectData[3].strip()[-6:].strip()
 		print '-------------------------------------------'
 
 
