@@ -4,14 +4,13 @@ Github id   - nishantsahoo
 Description - This code will be used to scrape user data from the SLCM portal developed by Manipal University.
 '''
 
-
 import mechanize
 import sys
 from bs4 import BeautifulSoup
 import string
 
 def getAcademics(academics):
-	sys.stdout = open('InteralMarks.txt', 'w')
+	sys.stdout = open('DataSets/InteralMarks.txt', 'w')
 	panelGroup = academics.find('div', attrs={'class': 'panel-group internalMarks'})
 	panelsList = panelGroup.findAll('div', attrs={'class': 'panel panel-default'})
 	for each in panelsList:
@@ -23,6 +22,11 @@ def getAcademics(academics):
 		print 'Marks Obtained:', subjectData[2].strip()[-6:].strip()
 		print 'Maximum Marks:', subjectData[3].strip()[-6:].strip()
 		print '-------------------------------------------'
+
+
+def getGradesheet(gradeSheet):
+	sys.stdout = open('DataSets/GradeSheet.txt', 'w')
+	print 'Grade Sheet: \n', gradeSheet
 
 
 def main():
@@ -42,16 +46,17 @@ def main():
 	response   = browserObject.open("http://slcm.manipal.edu/Academics.aspx")
 	academics  = BeautifulSoup(response.read(), "html5lib")
 
-	sys.stdout = open('Academics.txt', 'w')
+	sys.stdout = open('DataSets/Academics.txt', 'w')
 	print 'Academics: \n', academics
 
 	getAcademics(academics)
 
 	response   = browserObject.open("http://slcm.manipal.edu/GradeSheet.aspx")
 	gradeSheet = BeautifulSoup(response.read(), "html5lib")
+	
+	getGradesheet(gradeSheet)
 
-	sys.stdout = open('GradeSheet.txt', 'w')
-	print 'Grade Sheet: \n', gradeSheet
+	# End of the main function
 
 
 main()
