@@ -26,7 +26,8 @@ def getAcademics(academics):
 
 def getGradesheet(gradeSheet):
 	sys.stdout = open('DataSets/GradeSheet.txt', 'w')
-	print 'Grade Sheet: \n', gradeSheet
+	gradeTable = gradeSheet.find('div', attrs={'class': 'right_col_content border-box label-responsive'})
+	print gradeTable
 
 
 def main():
