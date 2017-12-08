@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import string
 
 def getAcademics(academics):
-	sys.stdout = open('DataSets/InteralMarks.txt', 'w')
+	sys.stdout = open('DataSets/InternalMarks.txt', 'w')
 	panelGroup = academics.find('div', attrs={'class': 'panel-group internalMarks'})
 	panelsList = panelGroup.findAll('div', attrs={'class': 'panel panel-default'})
 	for each in panelsList:
