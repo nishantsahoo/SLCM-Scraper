@@ -26,7 +26,12 @@ def getAcademics(academics):
 
 def getGradesheet(gradeSheet):
 	sys.stdout = open('DataSets/GradeSheet.txt', 'w')
-	gradeTable = gradeSheet.find('div', attrs={'class': 'right_col_content border-box label-responsive'})
+	gradeBox = gradeSheet.find('div', attrs={'class': 'right_col_content border-box label-responsive'})
+	GPA  = gradeBox.find('span', attrs={'id': 'ContentPlaceHolder1_lblGPA'}).text
+	CGPA = gradeBox.find('span', attrs={'id': 'ContentPlaceHolder1_lblCGPA'}).text
+	print 'GPA:', GPA
+	print 'CGPA:', CGPA
+	gradeTable = gradeBox.find('table', attrs={'id': 'ContentPlaceHolder1_grvGradeSheet'})
 	print gradeTable
 
 
