@@ -25,6 +25,8 @@ def getAcademics(academics):
 		print 'Maximum Marks:', subjectData[3].strip()[-6:].strip()
 		print '-------------------------------------------'
 
+	# Left with Assignment, and Sessional Marks
+
 	# End of the function getAcademics
 
 
