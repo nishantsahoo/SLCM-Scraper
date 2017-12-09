@@ -1,7 +1,7 @@
 '''
 Author      - Nishant Sahoo
 Github id   - nishantsahoo
-Description - This code will be used to scrape user data from the SLCM portal developed by Manipal University.
+Description - This code will be used to scrape user data from the SLCM portal developed by Manipal Academy of Higher Education.
 '''
 
 import mechanize
@@ -11,8 +11,10 @@ import string
 
 def getAcademics(academics):
 	sys.stdout = open('DataSets/InternalMarks.txt', 'w')
+
 	panelGroup = academics.find('div', attrs={'class': 'panel-group internalMarks'})
 	panelsList = panelGroup.findAll('div', attrs={'class': 'panel panel-default'})
+
 	for each in panelsList:
 		dataParent  = each.find('a', attrs={'data-parent': '#accordion'})
 		panelData   = dataParent.text.strip(string.whitespace)
@@ -23,16 +25,32 @@ def getAcademics(academics):
 		print 'Maximum Marks:', subjectData[3].strip()[-6:].strip()
 		print '-------------------------------------------'
 
+	# End of the function getAcademics
 
-def getGradesheet(gradeSheet):
+
+def getGradeSheet(gradeSheet):
 	sys.stdout = open('DataSets/GradeSheet.txt', 'w')
-	gradeBox = gradeSheet.find('div', attrs={'class': 'right_col_content border-box label-responsive'})
-	GPA  = gradeBox.find('span', attrs={'id': 'ContentPlaceHolder1_lblGPA'}).text
-	CGPA = gradeBox.find('span', attrs={'id': 'ContentPlaceHolder1_lblCGPA'}).text
+
+	GPA  = gradeSheet.find('span', attrs={'id': 'ContentPlaceHolder1_lblGPA'}).text
+	CGPA = gradeSheet.find('span', attrs={'id': 'ContentPlaceHolder1_lblCGPA'}).text
 	print 'GPA:', GPA
 	print 'CGPA:', CGPA
-	gradeTable = gradeBox.find('table', attrs={'id': 'ContentPlaceHolder1_grvGradeSheet'})
-	print gradeTable
+	print '-------------------------------------------'
+
+	gradeTable = gradeSheet.find('table', attrs={'id': 'ContentPlaceHolder1_grvGradeSheet'})
+	tableRows  = gradeTable.findAll('tr')[1:]
+
+	for tableRow in tableRows:
+		spanList     = tableRow.findAll('span')
+		subjectCode  = spanList[0].text
+		subjectName  = spanList[1].text
+		subjectGrade = spanList[2].text
+		print 'Subject Code:', subjectCode
+		print 'Subject Name:', subjectName
+		print 'Subject Grade:', subjectGrade
+		print '-------------------------------------------'
+
+	# End of the function getGradeSheet
 
 
 def main():
@@ -55,14 +73,14 @@ def main():
 	sys.stdout = open('DataSets/Academics.txt', 'w')
 	print 'Academics: \n', academics
 
-	getAcademics(academics)
+	getAcademics(academics)  # call of the function getAcademics
 
 	response   = browserObject.open("http://slcm.manipal.edu/GradeSheet.aspx")
 	gradeSheet = BeautifulSoup(response.read(), "html5lib")
 	
-	getGradesheet(gradeSheet)
+	getGradeSheet(gradeSheet)  # call of the function getGradeSheet
 
 	# End of the main function
 
 
-main()
+main()  # call of the main function
