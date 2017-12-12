@@ -12,6 +12,10 @@ import string
 def getAcademics(academics):
 	sys.stdout = open('DataSets/InternalMarks.txt', 'w')
 
+	username   = academics.find('span', attrs={'id':'lblUserName'}).text
+	print 'Welcome,', username
+	print '-------------------------------------------'
+
 	panelGroup = academics.find('div', attrs={'class': 'panel-group internalMarks'})
 	panelsList = panelGroup.findAll('div', attrs={'class': 'panel panel-default'})
 
@@ -26,12 +30,17 @@ def getAcademics(academics):
 		print '-------------------------------------------'
 
 	# Left with Assignment, and Sessional Marks
+	
 
 	# End of the function getAcademics
 
 
 def getGradeSheet(gradeSheet):
 	sys.stdout = open('DataSets/GradeSheet.txt', 'w')
+
+	semester = gradeSheet.find('option', attrs={'selected': 'selected'}).text
+	print 'Semester:', semester
+	print '-------------------------------------------'
 
 	GPA  = gradeSheet.find('span', attrs={'id': 'ContentPlaceHolder1_lblGPA'}).text
 	CGPA = gradeSheet.find('span', attrs={'id': 'ContentPlaceHolder1_lblCGPA'}).text
