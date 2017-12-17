@@ -25,8 +25,6 @@ def getAcademics(academics):
 		subjectData = panelData.split('\n')
 		print 'Subject Code:', subjectData[0].split('  ')[0][14:]
 		print 'Subject Name:', subjectData[0].split('  ')[1]
-		print 'Marks Obtained:', subjectData[2].strip()[-6:].strip()
-		print 'Maximum Marks:', subjectData[3].strip()[-6:].strip()
 
 		print
 
@@ -34,8 +32,8 @@ def getAcademics(academics):
 
 		sessionalsData = internalsData[0]
 		tableRowList   = sessionalsData.findAll('tr')[1:]
+		print 'Internal Data:'
 		for tr in tableRowList:
-			print 'Internal Data:'
 			tdList = tr.findAll('td')
 			print tdList[0].text + ': ' + tdList[2].text + '/' + tdList[1].text
 
@@ -48,6 +46,11 @@ def getAcademics(academics):
 			for tr in tableRowList:
 				tdList = tr.findAll('td')
 				print tdList[0].text + ': ' + tdList[2].text + '/' + tdList[1].text
+
+		print
+
+		print 'Marks Obtained:', subjectData[2].strip()[-6:].strip()
+		print 'Maximum Marks:', subjectData[3].strip()[-6:].strip()
 
 		print '-------------------------------------------'
 
