@@ -27,9 +27,28 @@ def getAcademics(academics):
 		print 'Subject Name:', subjectData[0].split('  ')[1]
 		print 'Marks Obtained:', subjectData[2].strip()[-6:].strip()
 		print 'Maximum Marks:', subjectData[3].strip()[-6:].strip()
-		print '-------------------------------------------'
-		divInternal = each.findAll('table', attrs={'class': 'table table-bordered'})
-		print divInternal
+
+		print
+
+		internalsData  = each.findAll('table', attrs={'class': 'table table-bordered'})
+
+		sessionalsData = internalsData[0]
+		tableRowList   = sessionalsData.findAll('tr')[1:]
+		for tr in tableRowList:
+			print 'Internal Data:'
+			tdList = tr.findAll('td')
+			print tdList[0].text + ': ' + tdList[2].text + '/' + tdList[1].text
+
+		print
+
+		if len(internalsData)>1:
+			print 'Assignment Data:'
+			assignmentData = internalsData[1]
+			tableRowList   = assignmentData.findAll('tr')[1:]
+			for tr in tableRowList:
+				tdList = tr.findAll('td')
+				print tdList[0].text + ': ' + tdList[2].text + '/' + tdList[1].text
+
 		print '-------------------------------------------'
 
 
