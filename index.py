@@ -107,8 +107,8 @@ def main():
 	response   = browserObject.open("http://slcm.manipal.edu/Academics.aspx")
 	academics  = BeautifulSoup(response.read(), "html5lib")
 
-	sys.stdout = open('DataSets/Academics.txt', 'w')
-	print 'Academics: \n', academics
+	# sys.stdout = open('DataSets/Academics.txt', 'w')
+	# print 'Academics: \n', academics
 
 	getAcademics(academics)  # call of the function getAcademics
 
