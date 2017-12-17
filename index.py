@@ -28,6 +28,10 @@ def getAcademics(academics):
 		print 'Marks Obtained:', subjectData[2].strip()[-6:].strip()
 		print 'Maximum Marks:', subjectData[3].strip()[-6:].strip()
 		print '-------------------------------------------'
+		divInternal = each.findAll('table', attrs={'class': 'table table-bordered'})
+		print divInternal
+		print '-------------------------------------------'
+
 
 	# Left with Assignment, and Sessional Marks
 	
