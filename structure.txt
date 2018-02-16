@@ -1,0 +1,25 @@
+{
+	"name": {
+		"internals": {
+
+		},
+		"gradeSheet": {
+			sem_1: {
+
+			},
+			sem_2: {
+
+			},
+			.
+			.
+			.
+		},
+		"attendance": {
+			subject_1: xyz,
+			subject_2: xyz,
+			.
+			.
+			.
+		}
+	}
+}
