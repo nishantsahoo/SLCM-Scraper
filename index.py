@@ -54,11 +54,19 @@ def getAcademics(academics):
 
 		print '-------------------------------------------'
 
+	# Left with Assignment, and Sessional Marks
+	
+	# End of the function getAcademics
 
-	# Attendance
+
+# Attendance
+
+def getAttendance(attendance):
+
+	# Need to print number of days present and all.
 
 	sys.stdout = open('DataSets/Attendace.txt', 'w')
-	table_attendance = academics.find('table', attrs={'id':'tblAttendancePercentage'})
+	table_attendance = attendance.find('table', attrs={'id':'tblAttendancePercentage'})
 	tbody = table_attendance.find('tbody')
 	tr_list = tbody.findAll('tr')
 	for tr in tr_list:
@@ -68,11 +76,8 @@ def getAcademics(academics):
 
 		print '-------------------------------------------'
 
+	# End of the function getAttendance
 
-	# Left with Assignment, and Sessional Marks
-	
-
-	# End of the function getAcademics
 
 
 def getGradeSheet(gradeSheet):
@@ -123,6 +128,8 @@ def main():
 	academics  = BeautifulSoup(response.read(), "html5lib")
 
 	getAcademics(academics)  # call of the function getAcademics
+
+	getAttendance(academics) # call of the function getAttendance
 
 	response   = browserObject.open("http://slcm.manipal.edu/GradeSheet.aspx")
 	gradeSheet = BeautifulSoup(response.read(), "html5lib")
