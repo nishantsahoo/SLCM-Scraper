@@ -8,13 +8,22 @@ import mechanize
 import sys
 from bs4 import BeautifulSoup
 import string
+import json
 
 def getAcademics(academics):
 	sys.stdout = open('DataSets/InternalMarks.txt', 'w')
 
 	username   = academics.find('span', attrs={'id':'lblUserName'}).text
 	print 'Welcome,', username
+	application_no = academics.find('span', attrs={'id':'ContentPlaceHolder1_lblApplicationNo'}).text
+	print application_no
+	roll_no = academics.find('span', attrs={'id':'ContentPlaceHolder1_lblRollNo'}).text.strip(string.whitespace)
+	print roll_no
+	enrollment_no = academics.find('span', attrs={'id':'ContentPlaceHolder1_lblEnrollment'}).text
+	print enrollment_no
 	print '-------------------------------------------'
+
+
 
 	panelGroup = academics.find('div', attrs={'class': 'panel-group internalMarks'})
 	panelsList = panelGroup.findAll('div', attrs={'class': 'panel panel-default'})
@@ -64,17 +73,24 @@ def getAcademics(academics):
 def getAttendance(attendance):
 
 	# Need to print number of days present and all.
+	attendance_dict = {}
 
-	sys.stdout = open('DataSets/Attendace.txt', 'w')
+	sys.stdout = open('DataSets/Attendance.json', 'w')
 	table_attendance = attendance.find('table', attrs={'id':'tblAttendancePercentage'})
 	tbody = table_attendance.find('tbody')
 	tr_list = tbody.findAll('tr')
+
 	for tr in tr_list:
 		td_list = tr.findAll('td')[1:]
-		for td in td_list:
-			print td.text
+		attendance_dict[td_list[0].text] = {
+			'name':       td_list[1].text,
+			'total':      td_list[3].text,
+			'present': 	  td_list[4].text,
+			'absent':     td_list[5].text,
+			'percentage': td_list[6].text
+		}
 
-		print '-------------------------------------------'
+	print json.dumps(attendance_dict, indent=4, sort_keys=True)
 
 	# End of the function getAttendance
 
